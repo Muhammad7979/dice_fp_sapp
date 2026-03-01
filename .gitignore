@@ -1,0 +1,131 @@
+# ==============================
+# OS / Filesystem Artifacts
+# ==============================
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+._*
+
+# ==============================
+# Editor / IDE Artifacts
+# ==============================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# ==============================
+# Logs / Runtime Temp Files
+# ==============================
+*.log
+logs/
+*.out
+*.err
+*.pid
+*.pid.lock
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+*.env
+.envrc
+*.local
+secrets.json
+secret*.json
+credentials.json
+apikeys.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+terraform/terra-key-*
+**/terra-key-*
+
+# ==============================
+# Python Artifacts
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.eggs/
+*.egg-info/
+*.egg
+
+# Python build / packaging
+build/
+dist/
+site/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Node / Frontend Artifacts
+# ==============================
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+*.tsbuildinfo
+
+# ==============================
+# Terraform / IaC Artifacts
+# ==============================
+.terraform/
+**/.terraform/
+.terraform.lock.hcl
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ==============================
+# Generic Caches / Temp Dirs
+# ==============================
+.cache/
+.tmp/
+tmp/
+temp/

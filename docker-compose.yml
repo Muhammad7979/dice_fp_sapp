@@ -1,0 +1,11 @@
+services:
+  server:
+    build: .
+    container_name: dice_server
+    ports:
+      - "5000:5000"
+    volumes:
+      - servervol:/serverdata
+
+volumes:
+  servervol:
